@@ -9,23 +9,24 @@
         "dev": "nodemon --experimental-specifier-resolution=node --no-warnings index.js"
     },
     "engines": {
-        "node": ">=16.0.0"
+        "node": ">=20.0.0",
+        "npm": ">=8.0.0"
     },
     "dependencies": {
         "@hapi/boom": "^10.0.1",
         "@whiskeysockets/baileys": "^6.7.19",
-        "axios": "^1.4.0",
-        "firebase": "^10.1.0",
+        "axios": "^1.7.7",
+        "firebase": "^10.13.2",
         "form-data": "^4.0.0",
         "mime-types": "^2.1.35",
-        "node-fetch": "^2.7.0",
-        "pino": "^8.14.1",
-        "qrcode": "^1.5.3",
+        "node-fetch": "^3.3.2",
+        "pino": "^9.4.0",
+        "qrcode": "^1.5.4",
         "qrcode-terminal": "^0.12.0",
-        "sharp": "^0.32.1"
+        "sharp": "^0.33.5"
     },
     "devDependencies": {
-        "nodemon": "^2.0.22",
+        "nodemon": "^3.1.4",
         "pino-pretty": "^13.1.1"
     }
 }
